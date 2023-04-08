@@ -8,7 +8,7 @@
 			},
 			"target_storage_path": {
 				"type": "string",
-				"value": "tigeranalytics2-file-system/testing_global_parameter"
+				"value": "tigeranalytics2-file-system"
 			}
 		}
 	},
