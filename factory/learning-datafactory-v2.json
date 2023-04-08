@@ -5,6 +5,10 @@
 			"weburl": {
 				"type": "string",
 				"value": "https://dummy.restapiexample.com/api/v1/employees"
+			},
+			"target_storage_path": {
+				"type": "string",
+				"value": "tigeranalytics2-file-system/testing_global_parameter"
 			}
 		}
 	},
