@@ -1,0 +1,12 @@
+{
+	"name": "RestService",
+	"properties": {
+		"annotations": [],
+		"type": "RestService",
+		"typeProperties": {
+			"url": "pipeline().globalParameters.weburl",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
