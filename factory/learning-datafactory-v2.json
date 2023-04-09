@@ -1,17 +1,5 @@
 {
 	"name": "learning-datafactory-v2",
-	"properties": {
-		"globalParameters": {
-			"weburl": {
-				"type": "string",
-				"value": "https://dummy.restapiexample.com/api/v1/employees"
-			},
-			"target_storage_path": {
-				"type": "string",
-				"value": "tigeranalytics2-file-system"
-			}
-		}
-	},
 	"location": "eastus",
 	"identity": {
 		"type": "SystemAssigned",
