@@ -1,0 +1,17 @@
+{
+	"name": "Xml1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Sftp1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Xml",
+		"typeProperties": {
+			"location": {
+				"type": "SftpLocation",
+				"folderPath": "/CANON/DEV/sap"
+			}
+		}
+	}
+}
