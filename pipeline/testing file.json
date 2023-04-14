@@ -19,7 +19,7 @@
 						"type": "XmlSource",
 						"storeSettings": {
 							"type": "SftpReadSettings",
-							"recursive": true,
+							"fileListPath": "CANON/DEV/sap",
 							"enablePartitionDiscovery": false,
 							"disableChunking": false
 						},
