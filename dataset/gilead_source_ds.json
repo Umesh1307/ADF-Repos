@@ -9,7 +9,11 @@
 		"type": "Xml",
 		"typeProperties": {
 			"location": {
-				"type": "HttpServerLocation"
+				"type": "HttpServerLocation",
+				"relativeUrl": {
+					"value": "@concat(pipeline().parameters.rankID, '?displayxml=True')",
+					"type": "Expression"
+				}
 			}
 		}
 	}
