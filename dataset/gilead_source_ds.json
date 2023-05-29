@@ -11,7 +11,7 @@
 			"location": {
 				"type": "HttpServerLocation",
 				"relativeUrl": {
-					"value": "@concat(pipeline().parameters.rankID, '?displayxml=True')",
+					"value": "@concat('&rank=',pipeline().parameters.rankID, '?displayxml=True')",
 					"type": "Expression"
 				}
 			}
