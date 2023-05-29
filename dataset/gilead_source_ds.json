@@ -1,0 +1,16 @@
+{
+	"name": "gilead_source_ds",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_HttpServer",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Xml",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation"
+			}
+		}
+	}
+}
