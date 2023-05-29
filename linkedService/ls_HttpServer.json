@@ -4,7 +4,7 @@
 		"annotations": [],
 		"type": "HttpServer",
 		"typeProperties": {
-			"url": "https://clinicaltrials.gov/ct2/show/?term=&rank=1?displayxml=True",
+			"url": "https://clinicaltrials.gov/ct2/show/?term=&",
 			"enableServerCertificateValidation": true,
 			"authenticationType": "Anonymous"
 		}
